@@ -1,0 +1,6 @@
+const:
+    hbase.rowkey.split: '_'
+    hbase.values.split: ','
+    hbase.value.split: ':'
+    hbase.scan.partition.size: 1
+    hbase.multiget.partition.size: 100

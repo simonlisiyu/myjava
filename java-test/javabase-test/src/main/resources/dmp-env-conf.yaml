@@ -1,0 +1,22 @@
+hbase:
+#  site.xml: hbase-site-prod.xml
+  hbase.user.name: its_bi
+  hbase.zookeeper.quorum: bigdata-hbase-xgpre03.xg01,bigdata-hbase-xgpre04.xg01:2181
+  zookeeper.znode.parent: /hbase
+  table.traj.order: 'STS_DMP:ORDER_TRAJ'
+  table.traj.order.cf: T
+  table.traj.order.column: c
+  table.traj.link: 'STS_DMP:LINK_ORDER'
+  table.traj.link.cf: T
+  table.traj.link.column: c
+  table.write.buffer.size: 59715200
+  table.auto.flush: false
+  table.auto.flush.fail.retry: false
+  table.set.write.to.wal: false
+hive:
+  its.database: its_bi
+  lsy.bi.database: gulfstream_dwd
+  lsy.bi.order.table: dwd_order_make_d
+hadoop:
+  city.order.gps.hdfs: '/user/its_bi/cityordergps/'
+

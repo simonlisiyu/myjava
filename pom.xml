@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lsy</groupId>
+    <artifactId>myjava</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-cloud-test</module>
+        <module>dubbo-test</module>
+        <module>java-test</module>
+        <module>algo-test</module>
+        <module>mode-test</module>
+        <module>traffic-base</module>
+        <module>rabbitmq-test</module>
+        <module>redis-test</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>myjava</name>
+    <description>Java Test of lsy</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>spring-releases</id>-->
+            <!--<name>Spring Releases</name>-->
+            <!--<url>https://repo.spring.io/libs-release</url>-->
+        <!--</repository>-->
+        <!--<repository>-->
+            <!--<id>org.jboss.repository.releases</id>-->
+            <!--<name>JBoss Maven Release Repository</name>-->
+            <!--<url>https://repository.jboss.org/nexus/content/repositories/releases</url>-->
+        <!--</repository>-->
+        <!--<repository>-->
+            <!--<id>snapshots</id>&lt;!&ndash; 此处必须和settings.xml中配置的ID一致 &ndash;&gt;-->
+            <!--<name>libs-snapshot</name>-->
+            <!--<url>http://artifactory.intra.xiaojukeji.com:80/artifactory/libs-snapshot</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+
+    <!--<pluginRepositories>-->
+        <!--<pluginRepository>-->
+            <!--<id>spring-releases</id>-->
+            <!--<name>Spring Releases</name>-->
+            <!--<url>https://repo.spring.io/libs-release</url>-->
+        <!--</pluginRepository>-->
+    <!--</pluginRepositories>-->
+
+    <!--<distributionManagement>-->
+    <!--<repository>-->
+        <!--<id>central</id>&lt;!&ndash; 此处必须和settings.xml中配置的ID一致 &ndash;&gt;-->
+        <!--<name>libs-release</name>-->
+        <!--<url>http://artifactory.intra.xiaojukeji.com:80/artifactory/libs-release</url>-->
+    <!--</repository>-->
+
+    <!--<snapshotRepository>-->
+        <!--<id>snapshots</id>&lt;!&ndash; 此处必须和settings.xml中配置的ID一致 &ndash;&gt;-->
+        <!--<name>libs-snapshot</name>-->
+        <!--<url>http://artifactory.intra.xiaojukeji.com:80/artifactory/libs-snapshot</url>-->
+        <!--<uniqueVersion>true</uniqueVersion>-->
+    <!--</snapshotRepository>-->
+
+</project>

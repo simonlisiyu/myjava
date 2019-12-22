@@ -1,0 +1,45 @@
+monitor:
+  #items.name: [【tcp.connections】, ip.ping, cpu.load, swap.usage, memory.usage, disk.io.utils,
+    #disk.usage, cpu.usage, network.incoming.packets.rate, network.outgoing.packets.rate,
+    #network.outgoing.bytes.rate, network.incoming.bytes.rate]
+
+  items.name:
+    - 'ip.ping'
+    - 'tcp.connections'
+  items.nameset:
+    - aaa
+    - bbb
+    - ccc
+  tcp.connections:
+    '1': [10240, 0, 1, 0, TCP连接数12223, 0, '', '', '']
+  ip.ping:
+    '1': [1, 2, 1, 0, 连通性, 0, '', '', '', 'String##$message##>=##Server not active, status: ERROR']
+  cpu.load:
+    '1': [100, 0, 0, 1, CPU Load, 0, '', '', '', '']
+    '2': [150, 0, 0, 0, CPU Load, 0, '', '', '', 'host:1.1.1.1,host:2.2.2.2&app:hadoop']
+  swap.usage:
+    '1': [80, 0, 1, 1, SWAP使用率, 1, '', '', '', '']
+    '2': [90, 0, 1, 0, SWAP使用率, 0, '', '', '', '']
+  memory.usage:
+    '1': [80, 0, 1, 1, 内存使用率, 1, '', '', '', '']
+    '2': [90, 0, 1, 0, 内存使用率, 0, '', '', '', '']
+  disk.io.utils:
+    '1': [80, 0, 0, 1, 磁盘繁忙, 1, '', '', '', '']
+    '2': [90, 0, 0, 0, 磁盘繁忙, 0, '', '', '', '']
+  disk.usage:
+    '1': [80, 0, 1, 1, 磁盘使用率, 1, '', 'mount_points:/data\d+', '', '']
+    '2': [90, 0, 1, 0, 磁盘使用率, 0, '', 'mount_points:/data\d+,mount_points:/data\d+',
+      '', '']
+  cpu.usage:
+    '1': [80, 0, 0, 1, CPU利用率, 1, '', '', '', '']
+    '2': [90, 0, 3, 0, CPU利用率, 0, '', '', '', '']
+  network.incoming.packets.rate:
+    '1': [50000, 0, 0, 1, 网络流入包数, 1, '', '', '', '']
+    '2': [100000, 0, 1, 1, 网络流入包数, 0, '', '', '', '']
+  network.outgoing.packets.rate:
+    '1': [50000, 0, 0, 1, 网络流出包数, 1, '', '', '', '']
+    '2': [100000, 0, 1, 1, 网络流出包数, 0, '', '', '', '']
+  network.outgoing.bytes.rate:
+    '1': [500, 0, 1, 0, 网络流出速率, 0, '', '', '', '']
+  network.incoming.bytes.rate:
+    '1': [500, 0, 1, 0, 网络流入速率, 0, '', '', '', '']

@@ -1,0 +1,14 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: eureka-server-consumer
+  main:
+    allow-bean-definition-overriding: true
+      
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8089/eureka/
