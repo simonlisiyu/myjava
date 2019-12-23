@@ -93,7 +93,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 | 参数名称  | 是否必选 |  类型  |     描述       |
 |-------|------|----|------------|
 | orderid | 是 | String | order id (','或关系)|
-| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.xiaojukeji.com/pages/viewpage.action?pageId=116565675)|
+| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.lsy.com/pages/viewpage.action?pageId=116565675)|
 
 ####  响应参数
 | 参数名称  |  类型  |     描述       |

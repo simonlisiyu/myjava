@@ -51,7 +51,7 @@
         <repository>
             <id>snapshots</id><!-- 此处必须和settings.xml中配置的ID一致 -->
             <name>libs-snapshot</name>
-            <url>http://artifactory.intra.xiaojukeji.com:80/artifactory/libs-snapshot</url>
+            <url>http://artifactory.intra.lsy.com:80/artifactory/libs-snapshot</url>
         </repository>
     </repositories>
 

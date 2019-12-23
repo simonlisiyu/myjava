@@ -24,7 +24,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 | end | 是 | int | 1522728000|
 | size | 否 | int | 2，defaultValue="1000" |
 | from | 否 | int |指定返回订单开始位置, defaultValue="0" |
-| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.xiaojukeji.com/pages/viewpage.action?pageId=116565675)|
+| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.lsy.com/pages/viewpage.action?pageId=116565675)|
 
 ####  响应参数
 | 参数名称  |  类型  |     描述       |
@@ -109,7 +109,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 | weekday_range | 否 | String | 工作日, defaultValue="1,2,3,4,5"|
 | size | 否 | int | 5, defaultValue="1000" |
 | from | 否 | int |指定返回订单开始位置, defaultValue="0" |
-| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.xiaojukeji.com/pages/viewpage.action?pageId=116565675)|
+| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.lsy.com/pages/viewpage.action?pageId=116565675)|
 
 
 ####  响应参数
@@ -178,7 +178,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 | end | 是 | int | 1522728000|
 | size | 否 | int | 5, defaultValue="1000"|
 | from | 否 | int |指定返回订单开始位置, defaultValue="0" |
-| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.xiaojukeji.com/pages/viewpage.action?pageId=116565675)|
+| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.lsy.com/pages/viewpage.action?pageId=116565675)|
 
 ####  响应参数
 | 参数名称  |  类型  |     描述       |
@@ -268,7 +268,7 @@ application/x-www-form-urlencoded; charset=UTF-8
 | weekday_range | 否 | String | 工作日|
 | size | 否 | int | 5, defaultValue="1000"|
 | from | 否 | int |指定返回订单开始位置, defaultValue="0" |
-| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.xiaojukeji.com/pages/viewpage.action?pageId=116565675)|
+| index | 否 | String | default:3,8,9； 全部：all； [index说明](http://wiki.intra.lsy.com/pages/viewpage.action?pageId=116565675)|
 
 ####  响应参数
 | 参数名称  |  类型  |     描述       |
