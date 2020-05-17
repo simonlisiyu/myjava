@@ -1,0 +1,7 @@
+teather:
+  name: Cate
+  age: 29
+  birthday: 1989/01/16
+  gender: true
+  hobbies: [唱歌,跳舞]
+  location: {Province: "江苏",City: "南京"}

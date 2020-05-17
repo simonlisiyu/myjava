@@ -16,6 +16,7 @@
         <module>traffic-base</module>
         <module>rabbitmq-test</module>
         <module>redis-test</module>
+        <module>spring-test</module>
     </modules>
     <packaging>pom</packaging>
 

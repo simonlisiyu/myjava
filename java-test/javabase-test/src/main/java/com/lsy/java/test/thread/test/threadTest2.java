@@ -15,7 +15,7 @@ public class threadTest2 {
 		
 	}
   
-	@Test
+//	@Test
     public void createThread1(){
         Thread t1 = new Thread(){
             public void run(){
@@ -25,7 +25,7 @@ public class threadTest2 {
         t1.start();
     }
 	
-	@Test
+//	@Test
     public void createThread2(){
         Thread t2 = new Thread(new Runnable(){
             @Override
